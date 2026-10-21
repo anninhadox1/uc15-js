@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <h1> Variavel do tipo objeto</h1>
+    <p id="dados">dados do carro: </p>
+
+    <script type="text/javascript">
+        var meucarro = new Object();
+        meuCarro.fabrica = 'Volkswagen';
+        meuCarro.modelo = 'Jetta';
+        meuCarro.cor = 'Azul';
+        meuCarro.ano = 2024;
+        
+document.getElementbyId('dados').inner.HTML +=meucarro.fabrica + ' ' + meucarro.modelo + ' ' + meucarro.cor + '- ' + meucarro.ano;
+    </script>
+
+</body>
+</html>
